@@ -121,6 +121,12 @@ form button {
   border-radius: 20px;
 }
 
+.task-card small {
+  display: block;
+  margin: 0.3rem 0;
+  opacity: 0.8;
+}
+
 /* BUTTON ALIGNMENT */
 .task-buttons {
   display: flex;

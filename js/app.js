@@ -105,6 +105,7 @@ function renderTasks() {
     li.innerHTML = `
       <strong>${t.title}</strong><br>
       ${t.status} | ${t.priority}<br>
+      <small>${t.description || ""}</small><br>
       Due: ${t.dueDate || "N/A"}
     `;
 
